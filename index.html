@@ -6,10 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Roberto</title>
     <style>
-h3{
-    display: flex;
-    justify-content: center;
-}
+        body {
+            background-color: #e3d5ca;
+            margin-top: 100px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        h3 {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        h1,
+        h3 {
+            color: #a37550;
+        }
+
         h1 {
             font-size: 40px;
         }
@@ -36,33 +51,70 @@ h3{
             justify-content: center;
             padding: 10px;
             gap: 10px;
+            background-color: #d4a373;
+            margin: 0 auto;
+            width: 150px;
+            text-decoration: none;
+            color: black;
+            border-radius: 30px;
+            box-shadow: 3px 3px rgba(132, 125, 125, 0.486);
+        }
+
+        a:hover {
+            transform: scale(1.1);
+            /* Aumenta o tamanho em 10% */
+            transition: transform 0.3s ease;
+            /* Transição suave */
+        }
+
+
+        .fundo {
+            background-color: #d5bdaf;
+            border-radius: 30px;
+            width: 400px;
+            height: 500px;
+            margin: 0 auto;
+            box-shadow: 3px 3px rgba(132, 125, 125, 0.486);
+        }
+
+        .footer {
+            text-align: center;
+            display: flex;
+            margin: 0 auto;
+        }
+        p{
+            padding-bottom: 30px;
         }
     </style>
 </head>
 
 <body>
+    <div class="fundo">
+        <div class="titulo">
+            <h1>Minha Página</h1>
+        </div>
+        <div id="dov">
+            <img src="Foto minha ROBERTO.png" alt="">
 
-    <div class="titulo">
-        <h1>Minha Página</h1>
+        </div>
+
+        <h3>ROBERTO HENRYCK </h3>
+
+
+        <a href="https://www.instagram.com/roberto.4ngeli/?next=%2F">INSTAGRAM</a>
+        <br>
+        <a href="https://www.youtube.com/@Beto_Gosling">YOUTUBE</a>
+        <br>
+        <a href="https://github.com/RobertoHenryck">GITHUB</a>
+        <br>
+
+        <div class="footer"></div>
+
+        <p> Copyright &copy; 2024</p>
+
     </div>
-    <div id="dov">
-        <img src="Foto minha ROBERTO.png" alt="">
 
     </div>
-
-    <h3>ROBERTO HENRYCK ANGELI SILVA</h3>
-
-    <div class="botoes">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">4</a>
-
-
-    </div>
-
-
-
 
 </body>
 
